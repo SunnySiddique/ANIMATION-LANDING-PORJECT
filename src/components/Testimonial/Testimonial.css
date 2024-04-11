@@ -1,0 +1,137 @@
+.testimonial-bg {
+  background-image: url(../../assets/client-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 140px;
+}
+
+.appie-testimonial-main {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.appie-testimonial-main .appie-thumb img {
+  margin-bottom: 13px;
+}
+
+.appie-testimonial-main .appie-thumb ul {
+  display: flex;
+  align-items: center;
+
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.appie-testimonial-main .appie-thumb ul li {
+  color: #ffb848;
+  font-size: 22px;
+}
+
+.appie-testimonial-main .appie-thumb span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.7;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.appie-testimonial-main .content p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.appie-testimonial-main .content .item .author {
+  margin-top: 50px;
+}
+
+.appie-testimonial-main .content .item h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.appie-testimonial-main .content .item span {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.appie-testimonial-main .content .item {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.arrow-icons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.arrow-icons .prev {
+  height: 55px;
+  width: 55px;
+  border: 2px solid #e3e5e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #0e1133;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  opacity: 1 !important;
+}
+
+.arrow-icons svg {
+  font-size: 20px;
+  color: #fff;
+}
+
+.arrow-icons .prev:hover {
+  background-color: #ff3e66;
+  border-color: #ff3e66;
+  color: #fff;
+}
+.arrow-icons .next {
+  height: 55px;
+  width: 55px;
+  border: 2px solid #e3e5e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #0e1133;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  opacity: 1 !important;
+}
+
+.arrow-icons .next:hover {
+  background-color: #ff3e66;
+  border-color: #ff3e66;
+  color: #fff;
+}
+
+.slick-next:before {
+  content: "" !important;
+}
+
+.slick-prev:before {
+  content: "" !important;
+}

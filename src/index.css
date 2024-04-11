@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Khojki&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ropa+Sans:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+  font-family: "Roboto", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.c-margin {
+  padding-top: 250px;
+  padding-bottom: 170px;
+}
+
+.globar-padding {
+  margin-bottom: 100px;
+  /* margin: 100px; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #0e1133;
+  margin: 0px;
+}
+
+/* Example */
+.container {
+  overflow: hidden;
+  /* overflow-y: hidden; */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 998; /* Ensure overlay is below sidebar but above other content */
+}
+
+/* responsvie */
+
+@media (max-width: 991px) {
+  .responsive-items ul li {
+    margin-bottom: -20px;
+    margin-top: 20px;
+  }
+  header {
+    height: auto;
+  }
+  .appie-hero-content-2 .appie-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .appie-section-title .appie-title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .appie-section-title p {
+    font-size: 15px;
+  }
+
+  .main-btn {
+    padding: 0px 24px;
+    font-size: 13px;
+  }
+
+  .appie_about_content .title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .counter-content {
+    margin: 0;
+  }
+
+  /* feature section */
+  .feature-header .appie_feature_title1 {
+    font-size: 47px;
+    line-height: 48px;
+    color: #fff;
+  }
+
+  .content {
+    padding-left: 0px;
+  }
+
+  /* feature section */
+
+  /* Video Section */
+  .slick-slider {
+    width: 100%;
+  }
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .arrow-icon {
+    display: none;
+  }
+
+  /* Video Section */
+
+  /* Downlooad  section */
+  .download-bg::before {
+    content: "";
+    position: static;
+  }
+  /* Downlooad  section */
+
+  /* Testimonial section */
+  .appie-testimonial-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .arrow-icons {
+    display: none;
+  }
+
+  .appie-testimonial-main .content .item {
+    padding: 0;
+  }
+
+  .testimonial-bg {
+    padding: 50px 30px;
+  }
+
+  /* Testimonial section */
+
+  /* Sponser section */
+  .sponser-header .sponser-title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  /* Sponser section */
+
+  /* Footer  */
+  .footer-copyright {
+    flex-direction: column;
+    margin-bottom: -12px;
+  }
+  /* Footer  */
+}
+
+@media (max-width: 390px) {
+  .responsive-items ul li {
+    margin-bottom: -20px;
+    margin-top: 20px;
+  }
+  header {
+    height: auto;
+  }
+  .appie-hero-content-2 .appie-title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .appie-hero-content-2 .hero-users {
+    margin-bottom: 25px;
+  }
+
+  /* work section */
+  .work_card_title .icon {
+    margin: 0 auto;
+  }
+  .wrok_content_wrpper {
+    padding: 20px;
+  }
+
+  /* work section */
+
+  /* Impression section */
+
+  .appie-about-box {
+    padding: 30px;
+  }
+
+  .appie_about_content {
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .about-thumb {
+    display: none;
+  }
+
+  .appie_about_content .title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .appie_about_content p {
+    font-size: 16px;
+  }
+  .appie_about_service {
+    margin-left: 35px;
+    margin-bottom: 31px;
+  }
+
+  /* Impression section */
+
+  /* Feature section */
+
+  .feature-header .appie_feature_title1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .feature-header .appie_feature_title2 {
+    font-size: 15px;
+  }
+  .appie_features_boxes .appie_features_item1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 60px;
+  }
+  .appie_features_boxes .appie_features_item2 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 60px;
+  }
+  .appie_features_boxes .appie_features_item3 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 60px;
+  }
+
+  .appie_features_boxes h4 {
+    font-size: 20px;
+  }
+  /* Feature section */
+
+  /* Video section */
+  .content {
+    padding-left: 0;
+    margin-bottom: 50px;
+  }
+  .content .title {
+    font-size: 26px;
+  }
+  .arrow-icon {
+    display: none;
+  }
+
+  /* Video section */
+
+  /* download section */
+
+  .download-bg::before {
+    content: "";
+    position: static;
+  }
+
+  .appie-download-content .title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .appie-download-content ul {
+    display: inline-block;
+  }
+
+  .appie-download-content ul li a {
+    margin-bottom: 20px;
+  }
+
+  /* download section */
+
+  /* Testimoinial section */
+  .testimonial-bg {
+  }
+
+  /* Testimoinial section */
+
+  /* Sponser section */
+
+  .sponser-header .sponser-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .sponser-header p {
+    font-size: 15px;
+  }
+  .item-2 {
+    margin-bottom: 78px;
+  }
+
+  /* Footer */
+
+  .footer-bg {
+    text-align: center;
+  }
+
+  .footer-copyright {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .footer-copyright .apps-download-btn ul li {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  /* Footer */
+
+  .counter-content {
+    margin: 0;
+  }
+}

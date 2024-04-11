@@ -1,0 +1,21 @@
+.counter-content {
+  background: #fff;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 30px 40px 0px rgba(0, 41, 57, 0.1);
+  padding-top: 37px;
+  padding-bottom: 40px;
+  margin-right: 14px;
+  margin-left: 15px;
+}
+
+.counter-content h3 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.counter-content p {
+  font-size: 14px;
+  font-weight: 500;
+}

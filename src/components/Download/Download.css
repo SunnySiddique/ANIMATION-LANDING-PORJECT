@@ -1,0 +1,197 @@
+.download-bg {
+  background-image: url(../../assets/download-img-1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+
+.download-bg::before {
+  position: absolute;
+  content: "";
+  right: 170px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 860px;
+  background-image: url(../../assets/download-img-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.appie-download-content {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.appie-download-content .short-head {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff3e66;
+}
+
+.appie-download-content .title {
+  font-size: 44px;
+  line-height: 54px;
+  margin-top: 9px;
+  margin-bottom: 13px;
+}
+
+.appie-download-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #505056;
+  margin: 0px;
+}
+
+.appie-download-content ul {
+  display: flex;
+  gap: 5px;
+  margin: 30px 0 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.appie-download-content ul li a {
+  background: #0e1133;
+  color: #fff;
+  padding-left: 22px;
+  padding-right: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  margin-right: 8px;
+  border: 2px solid #0e1133;
+  transition: all linear 0.3s;
+}
+
+.appie-download-content ul li a:hover {
+  background: #fff;
+  color: #0e1133;
+}
+
+.appie-download-content ul li a svg {
+  font-size: 36px;
+  padding-right: 11px;
+}
+
+.appie-download-content ul li a span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.appie-download-content ul li a span span {
+  font-size: 24px;
+  display: block;
+  line-height: 18px;
+}
+
+.appie-download-content ul li a.item-2 {
+  background: #0e1133;
+  color: #fff;
+  padding-left: 22px;
+  padding-right: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  margin-right: 8px;
+  border: 2px solid #0e1133;
+  background: #fff;
+  transition: all linear 0.3s;
+
+  color: #0e1133;
+}
+
+.appie-download-content ul li a.item-2:hover {
+  background: #0e1133;
+  color: #fff;
+}
+
+.download-shape-1 {
+  position: absolute;
+  left: 95px;
+  top: 95px;
+  z-index: -1;
+  -webkit-animation: linear 20s animationFramesOne infinite;
+  animation: linear 20s animationFramesOne infinite;
+}
+
+.download-shape-2 {
+  position: absolute;
+  top: 140px;
+  right: 250px;
+  z-index: -1;
+  -webkit-animation: linear 20s animationFramesTwo infinite;
+  animation: linear 20s animationFramesTwo infinite;
+}
+
+.download-shape-3 {
+  position: absolute;
+  left: 150px;
+  bottom: 100px;
+  z-index: -1;
+  -webkit-animation: linear 20s animationFramesThree infinite;
+  animation: linear 20s animationFramesThree infinite;
+}
+
+@keyframes animationFramesOne {
+  0% {
+    transform: translate(-300px, 151px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(251px, -200px) rotate(180deg);
+  }
+}
+
+@keyframes animationFramesTwo {
+  0% {
+    transform: translate(61px, -99px) rotate(0deg);
+  }
+
+  21% {
+    transform: translate(4px, -190px) rotate(38deg);
+  }
+  41% {
+    transform: translate(-139px, -200px) rotate(74deg);
+  }
+  60% {
+    transform: translate(-263px, -164px) rotate(108deg);
+  }
+  80% {
+    transform: translate(-195px, -49px) rotate(144deg);
+  }
+  100% {
+    transform: translate(-1px, 0px) rotate(180deg);
+  }
+}
+
+@keyframes animationFramesThree {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+  }
+  20% {
+    transform: translate(73px, -1px) rotate(36deg) scale(0.9);
+  }
+  40% {
+    transform: translate(141px, 72px) rotate(72deg) scale(1);
+  }
+  60% {
+    transform: translate(83px, 122px) rotate(108deg) scale(1.2);
+  }
+  80% {
+    transform: translate(-40px, 72px) rotate(144deg) scale(1.1);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg) scale(1);
+  }
+}

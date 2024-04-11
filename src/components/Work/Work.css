@@ -1,0 +1,143 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.appie-section-title .appie-title {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 900;
+  color: #0e1133;
+}
+
+.appie-section-title p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 11px;
+  color: #505056;
+}
+
+.main-btn {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #2b70fa;
+  padding: 4px 42px;
+  font-size: 16px;
+  line-height: 45px;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 5;
+  transition: all 0.4s ease-out 0s;
+  background-color: #2b70fa;
+}
+
+.appie-section-title .main-btn {
+  border-radius: 30px;
+  border: 2px solid #e7eaef;
+  background: #fff;
+  color: #0e1133;
+}
+
+.appie-section-title .main-btn:hover {
+  background: #ff3e66;
+  color: #fff;
+  border-color: #ff3e66;
+}
+
+.wrok_content_wrpper {
+  border: 1px solid #eef0f4;
+  border-radius: 10px;
+  padding: 48px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.wrok_content_wrpper:hover {
+  box-shadow: 0px -3px 0px 0px rgba(234, 76, 137, 0.004),
+    0px 40px 40px 0px rgba(14, 17, 51, 0.1);
+  border-top: 3px solid var(--border-top-color, #2eacfc);
+  transform: translateY(-10px);
+}
+
+.work_card_title .icon {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 900;
+}
+
+.work_card_title h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.work_card_title p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #505056;
+  margin-bottom: 23px;
+}
+
+.work_card_title .red_title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #505056;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+.work_card_title .red_title:hover {
+  color: #ff3e66;
+}
+
+@media (max-width: 390px) {
+  .main-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .appie-section-title .appie-title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .appie-section-title p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .main-btn {
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #2b70fa;
+    padding: 0 30px;
+    font-size: 15px;
+    line-height: 45px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease-out 0s;
+  }
+  .appie-section-title {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,41 @@
+.sponser-header {
+  padding-bottom: 25px;
+}
+
+.sponser-header .sponser-title {
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.sponser-header p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 11px;
+}
+
+.appie-sponser-box {
+  flex-wrap: wrap;
+}
+
+.appie-sponser-box .sponser-item {
+  background: #fff;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 6px;
+  z-index: 99;
+  box-shadow: 0px 40px 60px 0px rgba(14, 17, 51, 0.14);
+  margin: 30px 16px 0;
+}
+.item-2 {
+  margin-bottom: 154px;
+}
+
+.sponser-shape {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
