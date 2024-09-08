@@ -160,7 +160,9 @@ form {
 
 .hero-p-img {
   position: absolute;
+  top: 46px;
   z-index: 99;
+  left: 177px;
 }
 
 @keyframes animationFramesOne {
