@@ -63,10 +63,8 @@ h6 {
     line-height: 60px;
   }
   .appie-section-title .appie-title {
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 27px;
   }
-
   .appie-section-title p {
     font-size: 15px;
   }
@@ -77,8 +75,9 @@ h6 {
   }
 
   .appie_about_content .title {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 32px;
+    line-height: 33px;
+    text-align: justify;
   }
 
   .counter-content {
@@ -154,6 +153,132 @@ h6 {
   /* Footer  */
 }
 
+@media (max-width: 768px) {
+  .responsive-items ul li {
+    margin-bottom: -20px;
+    margin-top: 20px;
+  }
+  header {
+    height: auto;
+  }
+  .appie-hero-content-2 .appie-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .appie-section-title .appie-title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .appie-section-title p {
+    font-size: 15px;
+  }
+
+  .main-btn {
+    padding: 0px 24px;
+    font-size: 13px;
+  }
+
+  .appie_about_content .title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .counter-content {
+    margin: 0;
+  }
+
+  /* feature section */
+  .feature-header .appie_feature_title1 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+
+  .content {
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .appie_features_boxes .appie_features_item1 {
+    margin: 0px;
+  }
+  .appie_features_boxes .appie_features_item2 {
+    margin: 0px;
+  }
+  .appie_features_boxes .appie_features_item3 {
+    margin: 0px;
+  }
+
+  /* feature section */
+
+  /* Video Section */
+  .slick-slider {
+    width: 100%;
+  }
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .arrow-icon {
+    display: none;
+  }
+
+  /* Video Section */
+
+  /* Downlooad  section */
+  .download-bg::before {
+    content: "";
+    position: static;
+  }
+
+  .appie-download-content ul {
+    flex-direction: column;
+  }
+
+  .appie-download-content ul li a {
+    margin-bottom: 22px;
+  }
+  /* Downlooad  section */
+
+  /* Testimonial section */
+  .appie-testimonial-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .arrow-icons {
+    display: none;
+  }
+
+  .appie-testimonial-main .content .item {
+    padding: 0;
+  }
+
+  .testimonial-bg {
+    padding: 50px 30px;
+  }
+
+  /* Testimonial section */
+
+  /* Sponser section */
+  .sponser-header .sponser-title {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  /* Sponser section */
+
+  /* Footer  */
+  .footer-copyright {
+    flex-direction: column;
+    margin-bottom: -12px;
+  }
+
+  .apps-download-btn ul li {
+    margin-bottom: 20px;
+  }
+  /* Footer  */
+}
+
 @media (max-width: 390px) {
   .responsive-items ul li {
     margin-bottom: -20px;
@@ -220,19 +345,13 @@ h6 {
     font-size: 15px;
   }
   .appie_features_boxes .appie_features_item1 {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 60px;
+    margin: 0px;
   }
   .appie_features_boxes .appie_features_item2 {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 60px;
+    margin: 0px;
   }
   .appie_features_boxes .appie_features_item3 {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 60px;
+    margin: 0px;
   }
 
   .appie_features_boxes h4 {
@@ -267,7 +386,7 @@ h6 {
   }
 
   .appie-download-content ul {
-    display: inline-block;
+    flex-direction: column;
   }
 
   .appie-download-content ul li a {

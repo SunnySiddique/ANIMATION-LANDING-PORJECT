@@ -25,7 +25,7 @@ const Navbars = () => {
   };
 
   const listOfNav = [
-    { id: 1, name: "Home", href: "/home" },
+    { id: 1, name: "Home", href: "#" },
     { id: 2, name: "Work", href: "work" },
     { id: 3, name: "Impression", href: "impression" },
     { id: 4, name: "Feature", href: "feature" },
@@ -58,9 +58,9 @@ const Navbars = () => {
             <div className="container">
               <div className="navbar">
                 <div className="one-side">
-                  <div className="logo">
+                  <a href="#" className="logo">
                     <img src={logo} alt="logo" />
-                  </div>
+                  </a>
                   <div className="items  d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-none">
                     <ul>
                       {listOfNav.map((nav) => (
